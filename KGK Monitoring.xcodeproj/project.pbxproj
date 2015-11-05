@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E225FC1BEB2B7A00F585FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E225FB1BEB2B7A00F585FD /* main.m */; };
+		84E225FF1BEB2B7A00F585FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E225FE1BEB2B7A00F585FD /* AppDelegate.m */; };
+		84E226021BEB2B7A00F585FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E226011BEB2B7A00F585FD /* ViewController.m */; };
+		84E226051BEB2B7A00F585FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E226031BEB2B7A00F585FD /* Main.storyboard */; };
+		84E226071BEB2B7A00F585FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E226061BEB2B7A00F585FD /* Images.xcassets */; };
+		84E2260A1BEB2B7A00F585FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E226081BEB2B7A00F585FD /* LaunchScreen.xib */; };
+		84E226161BEB2B7A00F585FD /* KGK_MonitoringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E226151BEB2B7A00F585FD /* KGK_MonitoringTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E226101BEB2B7A00F585FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E225EE1BEB2B7A00F585FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E225F51BEB2B7A00F585FD;
+			remoteInfo = "KGK Monitoring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E225F61BEB2B7A00F585FD /* KGK Monitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KGK Monitoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E225FA1BEB2B7A00F585FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E225FB1BEB2B7A00F585FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E225FD1BEB2B7A00F585FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E225FE1BEB2B7A00F585FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E226001BEB2B7A00F585FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84E226011BEB2B7A00F585FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84E226041BEB2B7A00F585FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E226061BEB2B7A00F585FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84E226091BEB2B7A00F585FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84E2260F1BEB2B7A00F585FD /* KGK MonitoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KGK MonitoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E226141BEB2B7A00F585FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E226151BEB2B7A00F585FD /* KGK_MonitoringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGK_MonitoringTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E225F31BEB2B7A00F585FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2260C1BEB2B7A00F585FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E225ED1BEB2B7A00F585FD = {
+			isa = PBXGroup;
+			children = (
+				84E225F81BEB2B7A00F585FD /* KGK Monitoring */,
+				84E226121BEB2B7A00F585FD /* KGK MonitoringTests */,
+				84E225F71BEB2B7A00F585FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E225F71BEB2B7A00F585FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E225F61BEB2B7A00F585FD /* KGK Monitoring.app */,
+				84E2260F1BEB2B7A00F585FD /* KGK MonitoringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E225F81BEB2B7A00F585FD /* KGK Monitoring */ = {
+			isa = PBXGroup;
+			children = (
+				84E225FD1BEB2B7A00F585FD /* AppDelegate.h */,
+				84E225FE1BEB2B7A00F585FD /* AppDelegate.m */,
+				84E226001BEB2B7A00F585FD /* ViewController.h */,
+				84E226011BEB2B7A00F585FD /* ViewController.m */,
+				84E226031BEB2B7A00F585FD /* Main.storyboard */,
+				84E226061BEB2B7A00F585FD /* Images.xcassets */,
+				84E226081BEB2B7A00F585FD /* LaunchScreen.xib */,
+				84E225F91BEB2B7A00F585FD /* Supporting Files */,
+			);
+			path = "KGK Monitoring";
+			sourceTree = "<group>";
+		};
+		84E225F91BEB2B7A00F585FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E225FA1BEB2B7A00F585FD /* Info.plist */,
+				84E225FB1BEB2B7A00F585FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E226121BEB2B7A00F585FD /* KGK MonitoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E226151BEB2B7A00F585FD /* KGK_MonitoringTests.m */,
+				84E226131BEB2B7A00F585FD /* Supporting Files */,
+			);
+			path = "KGK MonitoringTests";
+			sourceTree = "<group>";
+		};
+		84E226131BEB2B7A00F585FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E226141BEB2B7A00F585FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E225F51BEB2B7A00F585FD /* KGK Monitoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E226191BEB2B7A00F585FD /* Build configuration list for PBXNativeTarget "KGK Monitoring" */;
+			buildPhases = (
+				84E225F21BEB2B7A00F585FD /* Sources */,
+				84E225F31BEB2B7A00F585FD /* Frameworks */,
+				84E225F41BEB2B7A00F585FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KGK Monitoring";
+			productName = "KGK Monitoring";
+			productReference = 84E225F61BEB2B7A00F585FD /* KGK Monitoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E2260E1BEB2B7A00F585FD /* KGK MonitoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E2261C1BEB2B7A00F585FD /* Build configuration list for PBXNativeTarget "KGK MonitoringTests" */;
+			buildPhases = (
+				84E2260B1BEB2B7A00F585FD /* Sources */,
+				84E2260C1BEB2B7A00F585FD /* Frameworks */,
+				84E2260D1BEB2B7A00F585FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E226111BEB2B7A00F585FD /* PBXTargetDependency */,
+			);
+			name = "KGK MonitoringTests";
+			productName = "KGK MonitoringTests";
+			productReference = 84E2260F1BEB2B7A00F585FD /* KGK MonitoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E225EE1BEB2B7A00F585FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = KGK;
+				TargetAttributes = {
+					84E225F51BEB2B7A00F585FD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					84E2260E1BEB2B7A00F585FD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 84E225F51BEB2B7A00F585FD;
+					};
+				};
+			};
+			buildConfigurationList = 84E225F11BEB2B7A00F585FD /* Build configuration list for PBXProject "KGK Monitoring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E225ED1BEB2B7A00F585FD;
+			productRefGroup = 84E225F71BEB2B7A00F585FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E225F51BEB2B7A00F585FD /* KGK Monitoring */,
+				84E2260E1BEB2B7A00F585FD /* KGK MonitoringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E225F41BEB2B7A00F585FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E226051BEB2B7A00F585FD /* Main.storyboard in Resources */,
+				84E2260A1BEB2B7A00F585FD /* LaunchScreen.xib in Resources */,
+				84E226071BEB2B7A00F585FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2260D1BEB2B7A00F585FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E225F21BEB2B7A00F585FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E226021BEB2B7A00F585FD /* ViewController.m in Sources */,
+				84E225FF1BEB2B7A00F585FD /* AppDelegate.m in Sources */,
+				84E225FC1BEB2B7A00F585FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2260B1BEB2B7A00F585FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E226161BEB2B7A00F585FD /* KGK_MonitoringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E226111BEB2B7A00F585FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E225F51BEB2B7A00F585FD /* KGK Monitoring */;
+			targetProxy = 84E226101BEB2B7A00F585FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E226031BEB2B7A00F585FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E226041BEB2B7A00F585FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E226081BEB2B7A00F585FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E226091BEB2B7A00F585FD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E226171BEB2B7A00F585FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E226181BEB2B7A00F585FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E2261A1BEB2B7A00F585FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KGK Monitoring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E2261B1BEB2B7A00F585FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KGK Monitoring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84E2261D1BEB2B7A00F585FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KGK MonitoringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KGK Monitoring.app/KGK Monitoring";
+			};
+			name = Debug;
+		};
+		84E2261E1BEB2B7A00F585FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KGK MonitoringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KGK Monitoring.app/KGK Monitoring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E225F11BEB2B7A00F585FD /* Build configuration list for PBXProject "KGK Monitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E226171BEB2B7A00F585FD /* Debug */,
+				84E226181BEB2B7A00F585FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E226191BEB2B7A00F585FD /* Build configuration list for PBXNativeTarget "KGK Monitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E2261A1BEB2B7A00F585FD /* Debug */,
+				84E2261B1BEB2B7A00F585FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84E2261C1BEB2B7A00F585FD /* Build configuration list for PBXNativeTarget "KGK MonitoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E2261D1BEB2B7A00F585FD /* Debug */,
+				84E2261E1BEB2B7A00F585FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E225EE1BEB2B7A00F585FD /* Project object */;
+}
