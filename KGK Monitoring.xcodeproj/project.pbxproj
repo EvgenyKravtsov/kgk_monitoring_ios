@@ -7,13 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84148DC51BF47D6B0075CD73 /* KGKDeviceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84148DC41BF47D6B0075CD73 /* KGKDeviceStore.m */; };
+		84555EF51BEB69DB0046177C /* model_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 84555EF41BEB69DB0046177C /* model_background.png */; };
+		845B89941C04761E008F0FBB /* list_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 845B89931C04761E008F0FBB /* list_arrow.png */; };
+		845B89B51C049512008F0FBB /* KGKActisHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B89B41C049512008F0FBB /* KGKActisHistoryCell.m */; };
+		845B89B71C049561008F0FBB /* KGKActisHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B89B61C049561008F0FBB /* KGKActisHistoryCell.xib */; };
+		845B89B91C04A7E1008F0FBB /* KGKActisHistoryHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B89B81C04A7E1008F0FBB /* KGKActisHistoryHeader.xib */; };
+		846240671C0C55E6002E7132 /* KGKLoginScreenViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846240661C0C55E6002E7132 /* KGKLoginScreenViewController~ipad.xib */; };
+		8462406A1C0C5E17002E7132 /* LaunchScreen~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846240681C0C5E17002E7132 /* LaunchScreen~ipad.xib */; };
+		8462406C1C0C6015002E7132 /* KGKInformationScreenViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8462406B1C0C6015002E7132 /* KGKInformationScreenViewController~ipad.xib */; };
+		846240701C0C81C0002E7132 /* KGKHistoryScreenViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8462406F1C0C81C0002E7132 /* KGKHistoryScreenViewController~ipad.xib */; };
+		846240721C0C83C5002E7132 /* KGKSettingsScreenViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846240711C0C83C5002E7132 /* KGKSettingsScreenViewController~ipad.xib */; };
+		846240741C0C8403002E7132 /* KGKPeriodScreenViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846240731C0C8403002E7132 /* KGKPeriodScreenViewController~ipad.xib */; };
+		8465F58D1BFF596800759785 /* map_custom_marker_point_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8465F58C1BFF596800759785 /* map_custom_marker_point_background.png */; };
+		84677D0C1C1586FE002FBE7B /* KGKDownloadDataInProgressEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84677D0B1C1586FE002FBE7B /* KGKDownloadDataInProgressEvent.m */; };
+		846D7A9D1BFC90FA00C354A4 /* ToggleSearchModeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D7A9C1BFC90FA00C354A4 /* ToggleSearchModeEvent.m */; };
+		84780FE61BFB2E900025D061 /* KGKSignalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84780FE51BFB2E900025D061 /* KGKSignalStore.m */; };
+		84780FEF1BFB55120025D061 /* LastActionDateStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 84780FEE1BFB55120025D061 /* LastActionDateStorage.m */; };
+		84780FF21BFB558D0025D061 /* UtilityConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 84780FF11BFB558D0025D061 /* UtilityConstants.m */; };
+		847AD7611BF3696500152B60 /* KGKLoginEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AD7601BF3696500152B60 /* KGKLoginEvent.m */; };
+		847AD7641BF3762B00152B60 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AD7631BF3762B00152B60 /* ToastView.m */; };
+		847E47461BF3167900FC92ED /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E47451BF3167900FC92ED /* Action.m */; };
+		847E474B1BF3178800FC92ED /* ActionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E474A1BF3178800FC92ED /* ActionBuilder.m */; };
+		847E474E1BF3227700FC92ED /* ActionCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E474D1BF3227700FC92ED /* ActionCreator.m */; };
+		847E47511BF32FF700FC92ED /* ActionCreatorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E47501BF32FF700FC92ED /* ActionCreatorConstants.m */; };
+		847E47541BF3385600FC92ED /* KGKHttpCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E47531BF3385600FC92ED /* KGKHttpCommunication.m */; };
+		847E47591BF3430800FC92ED /* KGKHttpConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E47581BF3430800FC92ED /* KGKHttpConstants.m */; };
+		84AA32E51BEC80C70044CD67 /* KGKSettingsScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA32E31BEC80C70044CD67 /* KGKSettingsScreenViewController.m */; };
+		84AA32E61BEC80C70044CD67 /* KGKSettingsScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AA32E41BEC80C70044CD67 /* KGKSettingsScreenViewController.xib */; };
+		84CCEA961BF5B5AE00D58515 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCEA951BF5B5AE00D58515 /* DatabaseManager.m */; };
+		84CCEA991BF5BF5200D58515 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CCEA981BF5BF5200D58515 /* libsqlite3.dylib */; };
+		84CCEA9B1BF5DD4E00D58515 /* signals.sql in Resources */ = {isa = PBXBuildFile; fileRef = 84CCEA9A1BF5DD4E00D58515 /* signals.sql */; };
+		84CCEA9E1BF5E07100D58515 /* DatabaseConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCEA9D1BF5E07100D58515 /* DatabaseConstants.m */; };
+		84DF095A1BEC95AB00FCF27C /* settings_menu_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DF09581BEC95AB00FCF27C /* settings_menu_button_pressed.png */; };
+		84DF095B1BEC95AB00FCF27C /* settings_menu_orange_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DF09591BEC95AB00FCF27C /* settings_menu_orange_button.png */; };
+		84E20FEC1BF1E5AC004BE34E /* KGKMapScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E20FEA1BF1E5AC004BE34E /* KGKMapScreenViewController.m */; };
+		84E20FED1BF1E5AC004BE34E /* KGKMapScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E20FEB1BF1E5AC004BE34E /* KGKMapScreenViewController.xib */; };
+		84E20FF11BF1E8F0004BE34E /* KGKHistoryScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E20FEF1BF1E8F0004BE34E /* KGKHistoryScreenViewController.m */; };
+		84E20FF21BF1E8F0004BE34E /* KGKHistoryScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E20FF01BF1E8F0004BE34E /* KGKHistoryScreenViewController.xib */; };
+		84E20FFB1BF2012D004BE34E /* KGKTrackScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E20FF91BF2012D004BE34E /* KGKTrackScreenViewController.m */; };
+		84E20FFC1BF2012D004BE34E /* KGKTrackScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E20FFA1BF2012D004BE34E /* KGKTrackScreenViewController.xib */; };
+		84E210001BF2032A004BE34E /* KGKPeriodScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E20FFE1BF2032A004BE34E /* KGKPeriodScreenViewController.m */; };
+		84E210011BF2032A004BE34E /* KGKPeriodScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E20FFF1BF2032A004BE34E /* KGKPeriodScreenViewController.xib */; };
+		84E210081BF2217D004BE34E /* KGKSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E210071BF2217D004BE34E /* KGKSignal.m */; };
+		84E2100B1BF2248A004BE34E /* KGKDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2100A1BF2248A004BE34E /* KGKDispatcher.m */; };
+		84E2100F1BF22BE7004BE34E /* Tolo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2100E1BF22BE7004BE34E /* Tolo.m */; };
+		84E210131BF2315F004BE34E /* KGKStoreChangeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E210121BF2315F004BE34E /* KGKStoreChangeEvent.m */; };
 		84E225FC1BEB2B7A00F585FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E225FB1BEB2B7A00F585FD /* main.m */; };
 		84E225FF1BEB2B7A00F585FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E225FE1BEB2B7A00F585FD /* AppDelegate.m */; };
-		84E226021BEB2B7A00F585FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E226011BEB2B7A00F585FD /* ViewController.m */; };
-		84E226051BEB2B7A00F585FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E226031BEB2B7A00F585FD /* Main.storyboard */; };
 		84E226071BEB2B7A00F585FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E226061BEB2B7A00F585FD /* Images.xcassets */; };
 		84E2260A1BEB2B7A00F585FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E226081BEB2B7A00F585FD /* LaunchScreen.xib */; };
 		84E226161BEB2B7A00F585FD /* KGK_MonitoringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E226151BEB2B7A00F585FD /* KGK_MonitoringTests.m */; };
+		84E226221BEB2C2500F585FD /* KGKLoginScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E226201BEB2C2500F585FD /* KGKLoginScreenViewController.m */; };
+		84E2262C1BEB3E3100F585FD /* demo_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E226261BEB3E3100F585FD /* demo_button.png */; };
+		84E2262D1BEB3E3100F585FD /* kgk_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E226271BEB3E3100F585FD /* kgk_logo.png */; };
+		84E2262E1BEB3E3100F585FD /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E226281BEB3E3100F585FD /* login_button.png */; };
+		84E2262F1BEB3E3100F585FD /* main_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E226291BEB3E3100F585FD /* main_background.png */; };
+		84E226301BEB3E3100F585FD /* notselectedcheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E2262A1BEB3E3100F585FD /* notselectedcheckbox.png */; };
+		84E226311BEB3E3100F585FD /* selectedcheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E2262B1BEB3E3100F585FD /* selectedcheckbox.png */; };
+		84E226381BEB404500F585FD /* KGKInformationScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E226361BEB404500F585FD /* KGKInformationScreenViewController.m */; };
+		84E226391BEB404500F585FD /* KGKInformationScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E226371BEB404500F585FD /* KGKInformationScreenViewController.xib */; };
+		84E2263B1BEB40CB00F585FD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84E2263A1BEB40CB00F585FD /* Podfile */; };
+		84E2263D1BEB459600F585FD /* control_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E2263C1BEB459600F585FD /* control_button.png */; };
+		84E279E41BEB73B0008A38FF /* search_off_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E279E21BEB73B0008A38FF /* search_off_button.png */; };
+		84E279E51BEB73B0008A38FF /* search_on_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E279E31BEB73B0008A38FF /* search_on_button.png */; };
+		84E512301BFDBC20009C39FA /* SettingsSentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5122F1BFDBC20009C39FA /* SettingsSentEvent.m */; };
+		84E512331BFDE046009C39FA /* SignalsFromDatabaseDelivery.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E512321BFDE046009C39FA /* SignalsFromDatabaseDelivery.m */; };
+		84E6F93E1BF481FA002FE351 /* KGKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6F93D1BF481FA002FE351 /* KGKDevice.m */; };
+		84E6F9411BF4839E002FE351 /* KGKStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6F9401BF4839E002FE351 /* KGKStore.m */; };
+		84E6F9451BF4AE02002FE351 /* KGKDevicesScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6F9431BF4AE02002FE351 /* KGKDevicesScreenViewController.m */; };
+		84EFAD7A1C0327F300A6FE1A /* map_custom_marker_point_arrow_east.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD721C0327F300A6FE1A /* map_custom_marker_point_arrow_east.png */; };
+		84EFAD7B1C0327F300A6FE1A /* map_custom_marker_point_arrow_north_east.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD731C0327F300A6FE1A /* map_custom_marker_point_arrow_north_east.png */; };
+		84EFAD7C1C0327F300A6FE1A /* map_custom_marker_point_arrow_north_west.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD741C0327F300A6FE1A /* map_custom_marker_point_arrow_north_west.png */; };
+		84EFAD7D1C0327F300A6FE1A /* map_custom_marker_point_arrow_north.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD751C0327F300A6FE1A /* map_custom_marker_point_arrow_north.png */; };
+		84EFAD7E1C0327F300A6FE1A /* map_custom_marker_point_arrow_south_east.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD761C0327F300A6FE1A /* map_custom_marker_point_arrow_south_east.png */; };
+		84EFAD7F1C0327F300A6FE1A /* map_custom_marker_point_arrow_south_west.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD771C0327F300A6FE1A /* map_custom_marker_point_arrow_south_west.png */; };
+		84EFAD801C0327F300A6FE1A /* map_custom_marker_point_arrow_south.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD781C0327F300A6FE1A /* map_custom_marker_point_arrow_south.png */; };
+		84EFAD811C0327F300A6FE1A /* map_custom_marker_point_arrow_west.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD791C0327F300A6FE1A /* map_custom_marker_point_arrow_west.png */; };
+		84EFAD851C03495000A6FE1A /* MarkerInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD841C03495000A6FE1A /* MarkerInformation.xib */; };
+		84EFAD871C034A3100A6FE1A /* custom_marker_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFAD861C034A3100A6FE1A /* custom_marker_background.png */; };
+		84EFAD8D1C0356C000A6FE1A /* MarkerInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EFAD8C1C0356C000A6FE1A /* MarkerInformationView.m */; };
+		84EFEB671C05A65300F5CD79 /* KGKLoginScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EFEB661C05A65300F5CD79 /* KGKLoginScreenViewController.xib */; };
+		84EFEB691C05D2BC00F5CD79 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84EFEB6B1C05D2BC00F5CD79 /* Localizable.strings */; };
+		96C04FBAE7959D3401925CE7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A0B64E45AB5365B82CEDDF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +103,134 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BCC248874B987A618721EE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		79A0B64E45AB5365B82CEDDF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84148DC31BF47D6B0075CD73 /* KGKDeviceStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKDeviceStore.h; sourceTree = "<group>"; };
+		84148DC41BF47D6B0075CD73 /* KGKDeviceStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKDeviceStore.m; sourceTree = "<group>"; };
+		84555EF41BEB69DB0046177C /* model_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = model_background.png; sourceTree = "<group>"; };
+		845B89931C04761E008F0FBB /* list_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_arrow.png; sourceTree = "<group>"; };
+		845B89B31C049512008F0FBB /* KGKActisHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKActisHistoryCell.h; sourceTree = "<group>"; };
+		845B89B41C049512008F0FBB /* KGKActisHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKActisHistoryCell.m; sourceTree = "<group>"; };
+		845B89B61C049561008F0FBB /* KGKActisHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKActisHistoryCell.xib; sourceTree = "<group>"; };
+		845B89B81C04A7E1008F0FBB /* KGKActisHistoryHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKActisHistoryHeader.xib; sourceTree = "<group>"; };
+		846240661C0C55E6002E7132 /* KGKLoginScreenViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KGKLoginScreenViewController~ipad.xib"; sourceTree = "<group>"; };
+		846240691C0C5E17002E7132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/LaunchScreen~ipad.xib"; sourceTree = "<group>"; };
+		8462406B1C0C6015002E7132 /* KGKInformationScreenViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KGKInformationScreenViewController~ipad.xib"; sourceTree = "<group>"; };
+		8462406F1C0C81C0002E7132 /* KGKHistoryScreenViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KGKHistoryScreenViewController~ipad.xib"; sourceTree = "<group>"; };
+		846240711C0C83C5002E7132 /* KGKSettingsScreenViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KGKSettingsScreenViewController~ipad.xib"; sourceTree = "<group>"; };
+		846240731C0C8403002E7132 /* KGKPeriodScreenViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KGKPeriodScreenViewController~ipad.xib"; sourceTree = "<group>"; };
+		8465F58C1BFF596800759785 /* map_custom_marker_point_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_background.png; sourceTree = "<group>"; };
+		84677D0A1C1586FE002FBE7B /* KGKDownloadDataInProgressEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKDownloadDataInProgressEvent.h; sourceTree = "<group>"; };
+		84677D0B1C1586FE002FBE7B /* KGKDownloadDataInProgressEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKDownloadDataInProgressEvent.m; sourceTree = "<group>"; };
+		846D7A9B1BFC90FA00C354A4 /* ToggleSearchModeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleSearchModeEvent.h; sourceTree = "<group>"; };
+		846D7A9C1BFC90FA00C354A4 /* ToggleSearchModeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToggleSearchModeEvent.m; sourceTree = "<group>"; };
+		84780FE41BFB2E900025D061 /* KGKSignalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKSignalStore.h; sourceTree = "<group>"; };
+		84780FE51BFB2E900025D061 /* KGKSignalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKSignalStore.m; sourceTree = "<group>"; };
+		84780FED1BFB55120025D061 /* LastActionDateStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastActionDateStorage.h; sourceTree = "<group>"; };
+		84780FEE1BFB55120025D061 /* LastActionDateStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastActionDateStorage.m; sourceTree = "<group>"; };
+		84780FF01BFB558D0025D061 /* UtilityConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityConstants.h; sourceTree = "<group>"; };
+		84780FF11BFB558D0025D061 /* UtilityConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityConstants.m; sourceTree = "<group>"; };
+		847AD75F1BF3696500152B60 /* KGKLoginEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKLoginEvent.h; sourceTree = "<group>"; };
+		847AD7601BF3696500152B60 /* KGKLoginEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKLoginEvent.m; sourceTree = "<group>"; };
+		847AD7621BF3762B00152B60 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		847AD7631BF3762B00152B60 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		847E47441BF3167900FC92ED /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		847E47451BF3167900FC92ED /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		847E47491BF3178800FC92ED /* ActionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionBuilder.h; sourceTree = "<group>"; };
+		847E474A1BF3178800FC92ED /* ActionBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionBuilder.m; sourceTree = "<group>"; };
+		847E474C1BF3227700FC92ED /* ActionCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionCreator.h; sourceTree = "<group>"; };
+		847E474D1BF3227700FC92ED /* ActionCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionCreator.m; sourceTree = "<group>"; };
+		847E474F1BF32FF700FC92ED /* ActionCreatorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionCreatorConstants.h; sourceTree = "<group>"; };
+		847E47501BF32FF700FC92ED /* ActionCreatorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionCreatorConstants.m; sourceTree = "<group>"; };
+		847E47521BF3385600FC92ED /* KGKHttpCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKHttpCommunication.h; sourceTree = "<group>"; };
+		847E47531BF3385600FC92ED /* KGKHttpCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKHttpCommunication.m; sourceTree = "<group>"; };
+		847E47571BF3430800FC92ED /* KGKHttpConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKHttpConstants.h; sourceTree = "<group>"; };
+		847E47581BF3430800FC92ED /* KGKHttpConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKHttpConstants.m; sourceTree = "<group>"; };
+		84AA32E21BEC80C70044CD67 /* KGKSettingsScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKSettingsScreenViewController.h; sourceTree = "<group>"; };
+		84AA32E31BEC80C70044CD67 /* KGKSettingsScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKSettingsScreenViewController.m; sourceTree = "<group>"; };
+		84AA32E41BEC80C70044CD67 /* KGKSettingsScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKSettingsScreenViewController.xib; sourceTree = "<group>"; };
+		84CCEA941BF5B5AE00D58515 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		84CCEA951BF5B5AE00D58515 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		84CCEA981BF5BF5200D58515 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		84CCEA9A1BF5DD4E00D58515 /* signals.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = signals.sql; path = ../../../signals.sql; sourceTree = "<group>"; };
+		84CCEA9C1BF5E07100D58515 /* DatabaseConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseConstants.h; sourceTree = "<group>"; };
+		84CCEA9D1BF5E07100D58515 /* DatabaseConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseConstants.m; sourceTree = "<group>"; };
+		84DF09581BEC95AB00FCF27C /* settings_menu_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_menu_button_pressed.png; sourceTree = "<group>"; };
+		84DF09591BEC95AB00FCF27C /* settings_menu_orange_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_menu_orange_button.png; sourceTree = "<group>"; };
+		84E20FE91BF1E5AC004BE34E /* KGKMapScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKMapScreenViewController.h; sourceTree = "<group>"; };
+		84E20FEA1BF1E5AC004BE34E /* KGKMapScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKMapScreenViewController.m; sourceTree = "<group>"; };
+		84E20FEB1BF1E5AC004BE34E /* KGKMapScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKMapScreenViewController.xib; sourceTree = "<group>"; };
+		84E20FEE1BF1E8F0004BE34E /* KGKHistoryScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKHistoryScreenViewController.h; sourceTree = "<group>"; };
+		84E20FEF1BF1E8F0004BE34E /* KGKHistoryScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKHistoryScreenViewController.m; sourceTree = "<group>"; };
+		84E20FF01BF1E8F0004BE34E /* KGKHistoryScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKHistoryScreenViewController.xib; sourceTree = "<group>"; };
+		84E20FF81BF2012D004BE34E /* KGKTrackScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKTrackScreenViewController.h; sourceTree = "<group>"; };
+		84E20FF91BF2012D004BE34E /* KGKTrackScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKTrackScreenViewController.m; sourceTree = "<group>"; };
+		84E20FFA1BF2012D004BE34E /* KGKTrackScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKTrackScreenViewController.xib; sourceTree = "<group>"; };
+		84E20FFD1BF2032A004BE34E /* KGKPeriodScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKPeriodScreenViewController.h; sourceTree = "<group>"; };
+		84E20FFE1BF2032A004BE34E /* KGKPeriodScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKPeriodScreenViewController.m; sourceTree = "<group>"; };
+		84E20FFF1BF2032A004BE34E /* KGKPeriodScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKPeriodScreenViewController.xib; sourceTree = "<group>"; };
+		84E210061BF2217D004BE34E /* KGKSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKSignal.h; sourceTree = "<group>"; };
+		84E210071BF2217D004BE34E /* KGKSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKSignal.m; sourceTree = "<group>"; };
+		84E210091BF2248A004BE34E /* KGKDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKDispatcher.h; sourceTree = "<group>"; };
+		84E2100A1BF2248A004BE34E /* KGKDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKDispatcher.m; sourceTree = "<group>"; };
+		84E2100D1BF22BE7004BE34E /* Tolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tolo.h; sourceTree = "<group>"; };
+		84E2100E1BF22BE7004BE34E /* Tolo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tolo.m; sourceTree = "<group>"; };
+		84E210111BF2315F004BE34E /* KGKStoreChangeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKStoreChangeEvent.h; sourceTree = "<group>"; };
+		84E210121BF2315F004BE34E /* KGKStoreChangeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKStoreChangeEvent.m; sourceTree = "<group>"; };
 		84E225F61BEB2B7A00F585FD /* KGK Monitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KGK Monitoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E225FA1BEB2B7A00F585FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E225FB1BEB2B7A00F585FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E225FD1BEB2B7A00F585FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E225FE1BEB2B7A00F585FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84E226001BEB2B7A00F585FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84E226011BEB2B7A00F585FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84E226041BEB2B7A00F585FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E226061BEB2B7A00F585FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84E226091BEB2B7A00F585FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84E2260F1BEB2B7A00F585FD /* KGK MonitoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KGK MonitoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E226141BEB2B7A00F585FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E226151BEB2B7A00F585FD /* KGK_MonitoringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGK_MonitoringTests.m; sourceTree = "<group>"; };
+		84E2261F1BEB2C2500F585FD /* KGKLoginScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKLoginScreenViewController.h; sourceTree = "<group>"; };
+		84E226201BEB2C2500F585FD /* KGKLoginScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKLoginScreenViewController.m; sourceTree = "<group>"; };
+		84E226261BEB3E3100F585FD /* demo_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_button.png; sourceTree = "<group>"; };
+		84E226271BEB3E3100F585FD /* kgk_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kgk_logo.png; sourceTree = "<group>"; };
+		84E226281BEB3E3100F585FD /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_button.png; sourceTree = "<group>"; };
+		84E226291BEB3E3100F585FD /* main_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_background.png; sourceTree = "<group>"; };
+		84E2262A1BEB3E3100F585FD /* notselectedcheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notselectedcheckbox.png; sourceTree = "<group>"; };
+		84E2262B1BEB3E3100F585FD /* selectedcheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedcheckbox.png; sourceTree = "<group>"; };
+		84E226351BEB404500F585FD /* KGKInformationScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKInformationScreenViewController.h; sourceTree = "<group>"; };
+		84E226361BEB404500F585FD /* KGKInformationScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKInformationScreenViewController.m; sourceTree = "<group>"; };
+		84E226371BEB404500F585FD /* KGKInformationScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKInformationScreenViewController.xib; sourceTree = "<group>"; };
+		84E2263A1BEB40CB00F585FD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		84E2263C1BEB459600F585FD /* control_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = control_button.png; sourceTree = "<group>"; };
+		84E279E21BEB73B0008A38FF /* search_off_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_off_button.png; sourceTree = "<group>"; };
+		84E279E31BEB73B0008A38FF /* search_on_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_on_button.png; sourceTree = "<group>"; };
+		84E5122E1BFDBC20009C39FA /* SettingsSentEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsSentEvent.h; sourceTree = "<group>"; };
+		84E5122F1BFDBC20009C39FA /* SettingsSentEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsSentEvent.m; sourceTree = "<group>"; };
+		84E512311BFDE046009C39FA /* SignalsFromDatabaseDelivery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalsFromDatabaseDelivery.h; sourceTree = "<group>"; };
+		84E512321BFDE046009C39FA /* SignalsFromDatabaseDelivery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalsFromDatabaseDelivery.m; sourceTree = "<group>"; };
+		84E6F93C1BF481FA002FE351 /* KGKDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKDevice.h; sourceTree = "<group>"; };
+		84E6F93D1BF481FA002FE351 /* KGKDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKDevice.m; sourceTree = "<group>"; };
+		84E6F93F1BF4839E002FE351 /* KGKStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKStore.h; sourceTree = "<group>"; };
+		84E6F9401BF4839E002FE351 /* KGKStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKStore.m; sourceTree = "<group>"; };
+		84E6F9421BF4AE02002FE351 /* KGKDevicesScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGKDevicesScreenViewController.h; sourceTree = "<group>"; };
+		84E6F9431BF4AE02002FE351 /* KGKDevicesScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGKDevicesScreenViewController.m; sourceTree = "<group>"; };
+		84EFAD721C0327F300A6FE1A /* map_custom_marker_point_arrow_east.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_arrow_east.png; sourceTree = "<group>"; };
+		84EFAD731C0327F300A6FE1A /* map_custom_marker_point_arrow_north_east.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_arrow_north_east.png; sourceTree = "<group>"; };
+		84EFAD741C0327F300A6FE1A /* map_custom_marker_point_arrow_north_west.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_arrow_north_west.png; sourceTree = "<group>"; };
+		84EFAD751C0327F300A6FE1A /* map_custom_marker_point_arrow_north.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_arrow_north.png; sourceTree = "<group>"; };
+		84EFAD761C0327F300A6FE1A /* map_custom_marker_point_arrow_south_east.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_arrow_south_east.png; sourceTree = "<group>"; };
+		84EFAD771C0327F300A6FE1A /* map_custom_marker_point_arrow_south_west.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_arrow_south_west.png; sourceTree = "<group>"; };
+		84EFAD781C0327F300A6FE1A /* map_custom_marker_point_arrow_south.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_arrow_south.png; sourceTree = "<group>"; };
+		84EFAD791C0327F300A6FE1A /* map_custom_marker_point_arrow_west.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_custom_marker_point_arrow_west.png; sourceTree = "<group>"; };
+		84EFAD841C03495000A6FE1A /* MarkerInformation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerInformation.xib; sourceTree = "<group>"; };
+		84EFAD861C034A3100A6FE1A /* custom_marker_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_marker_background.png; sourceTree = "<group>"; };
+		84EFAD8B1C0356C000A6FE1A /* MarkerInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerInformationView.h; sourceTree = "<group>"; };
+		84EFAD8C1C0356C000A6FE1A /* MarkerInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerInformationView.m; sourceTree = "<group>"; };
+		84EFEB661C05A65300F5CD79 /* KGKLoginScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KGKLoginScreenViewController.xib; sourceTree = "<group>"; };
+		84EFEB681C05D24400F5CD79 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84EFEB6A1C05D2BC00F5CD79 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84EFEB6C1C05D2D400F5CD79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84EFEB6D1C05E8EF00F5CD79 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84EFEB6E1C05E90E00F5CD79 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC941F56650AA43C167DBA37 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +238,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CCEA991BF5BF5200D58515 /* libsqlite3.dylib in Frameworks */,
+				96C04FBAE7959D3401925CE7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +253,173 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F008CFF474FDBA5209C8DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84CCEA981BF5BF5200D58515 /* libsqlite3.dylib */,
+				79A0B64E45AB5365B82CEDDF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847AD7651BF3763000152B60 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				847AD7621BF3762B00152B60 /* ToastView.h */,
+				847AD7631BF3762B00152B60 /* ToastView.m */,
+				84780FED1BFB55120025D061 /* LastActionDateStorage.h */,
+				84780FEE1BFB55120025D061 /* LastActionDateStorage.m */,
+				84780FF01BFB558D0025D061 /* UtilityConstants.h */,
+				84780FF11BFB558D0025D061 /* UtilityConstants.m */,
+				846D7A9B1BFC90FA00C354A4 /* ToggleSearchModeEvent.h */,
+				846D7A9C1BFC90FA00C354A4 /* ToggleSearchModeEvent.m */,
+				84E5122E1BFDBC20009C39FA /* SettingsSentEvent.h */,
+				84E5122F1BFDBC20009C39FA /* SettingsSentEvent.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		847E47481BF3168600FC92ED /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				847E474F1BF32FF700FC92ED /* ActionCreatorConstants.h */,
+				847E47501BF32FF700FC92ED /* ActionCreatorConstants.m */,
+				847E47441BF3167900FC92ED /* Action.h */,
+				847E47451BF3167900FC92ED /* Action.m */,
+				847E47491BF3178800FC92ED /* ActionBuilder.h */,
+				847E474A1BF3178800FC92ED /* ActionBuilder.m */,
+				847E474C1BF3227700FC92ED /* ActionCreator.h */,
+				847E474D1BF3227700FC92ED /* ActionCreator.m */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		847E47551BF3385C00FC92ED /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				847E47521BF3385600FC92ED /* KGKHttpCommunication.h */,
+				847E47531BF3385600FC92ED /* KGKHttpCommunication.m */,
+				847E47571BF3430800FC92ED /* KGKHttpConstants.h */,
+				847E47581BF3430800FC92ED /* KGKHttpConstants.m */,
+				847AD75F1BF3696500152B60 /* KGKLoginEvent.h */,
+				847AD7601BF3696500152B60 /* KGKLoginEvent.m */,
+				84677D0A1C1586FE002FBE7B /* KGKDownloadDataInProgressEvent.h */,
+				84677D0B1C1586FE002FBE7B /* KGKDownloadDataInProgressEvent.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		84AA32DC1BEC7DE10044CD67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84E2261F1BEB2C2500F585FD /* KGKLoginScreenViewController.h */,
+				84E226201BEB2C2500F585FD /* KGKLoginScreenViewController.m */,
+				84EFEB661C05A65300F5CD79 /* KGKLoginScreenViewController.xib */,
+				846240661C0C55E6002E7132 /* KGKLoginScreenViewController~ipad.xib */,
+				84E6F9421BF4AE02002FE351 /* KGKDevicesScreenViewController.h */,
+				84E6F9431BF4AE02002FE351 /* KGKDevicesScreenViewController.m */,
+				84E226351BEB404500F585FD /* KGKInformationScreenViewController.h */,
+				84E226361BEB404500F585FD /* KGKInformationScreenViewController.m */,
+				84E226371BEB404500F585FD /* KGKInformationScreenViewController.xib */,
+				8462406B1C0C6015002E7132 /* KGKInformationScreenViewController~ipad.xib */,
+				84AA32E21BEC80C70044CD67 /* KGKSettingsScreenViewController.h */,
+				84AA32E31BEC80C70044CD67 /* KGKSettingsScreenViewController.m */,
+				84AA32E41BEC80C70044CD67 /* KGKSettingsScreenViewController.xib */,
+				846240711C0C83C5002E7132 /* KGKSettingsScreenViewController~ipad.xib */,
+				84E20FE91BF1E5AC004BE34E /* KGKMapScreenViewController.h */,
+				84E20FEA1BF1E5AC004BE34E /* KGKMapScreenViewController.m */,
+				84E20FEB1BF1E5AC004BE34E /* KGKMapScreenViewController.xib */,
+				84E20FEE1BF1E8F0004BE34E /* KGKHistoryScreenViewController.h */,
+				84E20FEF1BF1E8F0004BE34E /* KGKHistoryScreenViewController.m */,
+				84E20FF01BF1E8F0004BE34E /* KGKHistoryScreenViewController.xib */,
+				8462406F1C0C81C0002E7132 /* KGKHistoryScreenViewController~ipad.xib */,
+				84E20FF81BF2012D004BE34E /* KGKTrackScreenViewController.h */,
+				84E20FF91BF2012D004BE34E /* KGKTrackScreenViewController.m */,
+				84E20FFA1BF2012D004BE34E /* KGKTrackScreenViewController.xib */,
+				84E20FFD1BF2032A004BE34E /* KGKPeriodScreenViewController.h */,
+				84E20FFE1BF2032A004BE34E /* KGKPeriodScreenViewController.m */,
+				84E20FFF1BF2032A004BE34E /* KGKPeriodScreenViewController.xib */,
+				846240731C0C8403002E7132 /* KGKPeriodScreenViewController~ipad.xib */,
+				84EFAD841C03495000A6FE1A /* MarkerInformation.xib */,
+				84EFAD8B1C0356C000A6FE1A /* MarkerInformationView.h */,
+				84EFAD8C1C0356C000A6FE1A /* MarkerInformationView.m */,
+				845B89B31C049512008F0FBB /* KGKActisHistoryCell.h */,
+				845B89B41C049512008F0FBB /* KGKActisHistoryCell.m */,
+				845B89B61C049561008F0FBB /* KGKActisHistoryCell.xib */,
+				845B89B81C04A7E1008F0FBB /* KGKActisHistoryHeader.xib */,
+				84EFEB6B1C05D2BC00F5CD79 /* Localizable.strings */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		84CCEA971BF5B5BA00D58515 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				84CCEA941BF5B5AE00D58515 /* DatabaseManager.h */,
+				84CCEA951BF5B5AE00D58515 /* DatabaseManager.m */,
+				84CCEA9A1BF5DD4E00D58515 /* signals.sql */,
+				84CCEA9C1BF5E07100D58515 /* DatabaseConstants.h */,
+				84CCEA9D1BF5E07100D58515 /* DatabaseConstants.m */,
+				84E512311BFDE046009C39FA /* SignalsFromDatabaseDelivery.h */,
+				84E512321BFDE046009C39FA /* SignalsFromDatabaseDelivery.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		84E210051BF220FD004BE34E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84E210061BF2217D004BE34E /* KGKSignal.h */,
+				84E210071BF2217D004BE34E /* KGKSignal.m */,
+				84E6F93C1BF481FA002FE351 /* KGKDevice.h */,
+				84E6F93D1BF481FA002FE351 /* KGKDevice.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84E2100C1BF22491004BE34E /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				84E210091BF2248A004BE34E /* KGKDispatcher.h */,
+				84E2100A1BF2248A004BE34E /* KGKDispatcher.m */,
+			);
+			name = Dispatcher;
+			sourceTree = "<group>";
+		};
+		84E210101BF22C05004BE34E /* Tolo */ = {
+			isa = PBXGroup;
+			children = (
+				84E2100D1BF22BE7004BE34E /* Tolo.h */,
+				84E2100E1BF22BE7004BE34E /* Tolo.m */,
+			);
+			name = Tolo;
+			sourceTree = "<group>";
+		};
+		84E210141BF23165004BE34E /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				84E210111BF2315F004BE34E /* KGKStoreChangeEvent.h */,
+				84E210121BF2315F004BE34E /* KGKStoreChangeEvent.m */,
+				84148DC31BF47D6B0075CD73 /* KGKDeviceStore.h */,
+				84148DC41BF47D6B0075CD73 /* KGKDeviceStore.m */,
+				84E6F93F1BF4839E002FE351 /* KGKStore.h */,
+				84E6F9401BF4839E002FE351 /* KGKStore.m */,
+				84780FE41BFB2E900025D061 /* KGKSignalStore.h */,
+				84780FE51BFB2E900025D061 /* KGKSignalStore.m */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
 		84E225ED1BEB2B7A00F585FD = {
 			isa = PBXGroup;
 			children = (
+				84E2263A1BEB40CB00F585FD /* Podfile */,
 				84E225F81BEB2B7A00F585FD /* KGK Monitoring */,
 				84E226121BEB2B7A00F585FD /* KGK MonitoringTests */,
 				84E225F71BEB2B7A00F585FD /* Products */,
+				84E226321BEB3E3B00F585FD /* Images */,
+				C3F70BEE11F6060091E4CDA2 /* Pods */,
+				7F008CFF474FDBA5209C8DFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +437,19 @@
 			children = (
 				84E225FD1BEB2B7A00F585FD /* AppDelegate.h */,
 				84E225FE1BEB2B7A00F585FD /* AppDelegate.m */,
-				84E226001BEB2B7A00F585FD /* ViewController.h */,
-				84E226011BEB2B7A00F585FD /* ViewController.m */,
-				84E226031BEB2B7A00F585FD /* Main.storyboard */,
-				84E226061BEB2B7A00F585FD /* Images.xcassets */,
-				84E226081BEB2B7A00F585FD /* LaunchScreen.xib */,
+				84E210101BF22C05004BE34E /* Tolo */,
+				84AA32DC1BEC7DE10044CD67 /* View */,
 				84E225F91BEB2B7A00F585FD /* Supporting Files */,
+				84E210051BF220FD004BE34E /* Model */,
+				84E2100C1BF22491004BE34E /* Dispatcher */,
+				84E210141BF23165004BE34E /* Stores */,
+				847E47481BF3168600FC92ED /* Actions */,
+				847E47551BF3385C00FC92ED /* Networking */,
+				84CCEA971BF5B5BA00D58515 /* Database */,
+				847AD7651BF3763000152B60 /* Utility */,
+				84E226061BEB2B7A00F585FD /* Images.xcassets */,
+				846240681C0C5E17002E7132 /* LaunchScreen~ipad.xib */,
+				84E226081BEB2B7A00F585FD /* LaunchScreen.xib */,
 			);
 			path = "KGK Monitoring";
 			sourceTree = "<group>";
@@ -119,6 +480,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		84E226321BEB3E3B00F585FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				845B89931C04761E008F0FBB /* list_arrow.png */,
+				84EFAD861C034A3100A6FE1A /* custom_marker_background.png */,
+				84EFAD721C0327F300A6FE1A /* map_custom_marker_point_arrow_east.png */,
+				84EFAD731C0327F300A6FE1A /* map_custom_marker_point_arrow_north_east.png */,
+				84EFAD741C0327F300A6FE1A /* map_custom_marker_point_arrow_north_west.png */,
+				84EFAD751C0327F300A6FE1A /* map_custom_marker_point_arrow_north.png */,
+				84EFAD761C0327F300A6FE1A /* map_custom_marker_point_arrow_south_east.png */,
+				84EFAD771C0327F300A6FE1A /* map_custom_marker_point_arrow_south_west.png */,
+				84EFAD781C0327F300A6FE1A /* map_custom_marker_point_arrow_south.png */,
+				84EFAD791C0327F300A6FE1A /* map_custom_marker_point_arrow_west.png */,
+				8465F58C1BFF596800759785 /* map_custom_marker_point_background.png */,
+				84DF09581BEC95AB00FCF27C /* settings_menu_button_pressed.png */,
+				84DF09591BEC95AB00FCF27C /* settings_menu_orange_button.png */,
+				84E279E21BEB73B0008A38FF /* search_off_button.png */,
+				84E279E31BEB73B0008A38FF /* search_on_button.png */,
+				84555EF41BEB69DB0046177C /* model_background.png */,
+				84E2263C1BEB459600F585FD /* control_button.png */,
+				84E226261BEB3E3100F585FD /* demo_button.png */,
+				84E226271BEB3E3100F585FD /* kgk_logo.png */,
+				84E226281BEB3E3100F585FD /* login_button.png */,
+				84E226291BEB3E3100F585FD /* main_background.png */,
+				84E2262A1BEB3E3100F585FD /* notselectedcheckbox.png */,
+				84E2262B1BEB3E3100F585FD /* selectedcheckbox.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C3F70BEE11F6060091E4CDA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC941F56650AA43C167DBA37 /* Pods.debug.xcconfig */,
+				03BCC248874B987A618721EE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +526,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E226191BEB2B7A00F585FD /* Build configuration list for PBXNativeTarget "KGK Monitoring" */;
 			buildPhases = (
+				AAE7EAC620300DF5A8E3139D /* Check Pods Manifest.lock */,
 				84E225F21BEB2B7A00F585FD /* Sources */,
 				84E225F31BEB2B7A00F585FD /* Frameworks */,
 				84E225F41BEB2B7A00F585FD /* Resources */,
+				044AEBED3F9D7A9263C7A486 /* Embed Pods Frameworks */,
+				89E0F0B6C69E0AF5E6D89E95 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +585,7 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
 			);
 			mainGroup = 84E225ED1BEB2B7A00F585FD;
 			productRefGroup = 84E225F71BEB2B7A00F585FD /* Products */;
@@ -199,9 +603,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E226051BEB2B7A00F585FD /* Main.storyboard in Resources */,
 				84E2260A1BEB2B7A00F585FD /* LaunchScreen.xib in Resources */,
+				84EFAD7C1C0327F300A6FE1A /* map_custom_marker_point_arrow_north_west.png in Resources */,
+				84EFAD7B1C0327F300A6FE1A /* map_custom_marker_point_arrow_north_east.png in Resources */,
+				84E20FF21BF1E8F0004BE34E /* KGKHistoryScreenViewController.xib in Resources */,
+				84EFAD7E1C0327F300A6FE1A /* map_custom_marker_point_arrow_south_east.png in Resources */,
+				84EFAD801C0327F300A6FE1A /* map_custom_marker_point_arrow_south.png in Resources */,
+				84EFAD7D1C0327F300A6FE1A /* map_custom_marker_point_arrow_north.png in Resources */,
+				84EFAD811C0327F300A6FE1A /* map_custom_marker_point_arrow_west.png in Resources */,
+				846240671C0C55E6002E7132 /* KGKLoginScreenViewController~ipad.xib in Resources */,
+				84DF095B1BEC95AB00FCF27C /* settings_menu_orange_button.png in Resources */,
+				84E279E41BEB73B0008A38FF /* search_off_button.png in Resources */,
+				84555EF51BEB69DB0046177C /* model_background.png in Resources */,
+				845B89B91C04A7E1008F0FBB /* KGKActisHistoryHeader.xib in Resources */,
+				8462406A1C0C5E17002E7132 /* LaunchScreen~ipad.xib in Resources */,
+				846240701C0C81C0002E7132 /* KGKHistoryScreenViewController~ipad.xib in Resources */,
+				84E2262E1BEB3E3100F585FD /* login_button.png in Resources */,
+				84EFAD851C03495000A6FE1A /* MarkerInformation.xib in Resources */,
+				846240721C0C83C5002E7132 /* KGKSettingsScreenViewController~ipad.xib in Resources */,
+				84E226311BEB3E3100F585FD /* selectedcheckbox.png in Resources */,
+				84EFAD7F1C0327F300A6FE1A /* map_custom_marker_point_arrow_south_west.png in Resources */,
+				845B89B71C049561008F0FBB /* KGKActisHistoryCell.xib in Resources */,
+				84E20FED1BF1E5AC004BE34E /* KGKMapScreenViewController.xib in Resources */,
+				84E20FFC1BF2012D004BE34E /* KGKTrackScreenViewController.xib in Resources */,
+				84DF095A1BEC95AB00FCF27C /* settings_menu_button_pressed.png in Resources */,
+				84E2262D1BEB3E3100F585FD /* kgk_logo.png in Resources */,
+				84E226301BEB3E3100F585FD /* notselectedcheckbox.png in Resources */,
+				84EFAD871C034A3100A6FE1A /* custom_marker_background.png in Resources */,
+				84E2262C1BEB3E3100F585FD /* demo_button.png in Resources */,
+				84CCEA9B1BF5DD4E00D58515 /* signals.sql in Resources */,
+				84E2262F1BEB3E3100F585FD /* main_background.png in Resources */,
+				846240741C0C8403002E7132 /* KGKPeriodScreenViewController~ipad.xib in Resources */,
+				84EFAD7A1C0327F300A6FE1A /* map_custom_marker_point_arrow_east.png in Resources */,
+				84EFEB671C05A65300F5CD79 /* KGKLoginScreenViewController.xib in Resources */,
+				84AA32E61BEC80C70044CD67 /* KGKSettingsScreenViewController.xib in Resources */,
+				845B89941C04761E008F0FBB /* list_arrow.png in Resources */,
 				84E226071BEB2B7A00F585FD /* Images.xcassets in Resources */,
+				8465F58D1BFF596800759785 /* map_custom_marker_point_background.png in Resources */,
+				84E2263D1BEB459600F585FD /* control_button.png in Resources */,
+				84E226391BEB404500F585FD /* KGKInformationScreenViewController.xib in Resources */,
+				8462406C1C0C6015002E7132 /* KGKInformationScreenViewController~ipad.xib in Resources */,
+				84E279E51BEB73B0008A38FF /* search_on_button.png in Resources */,
+				84EFEB691C05D2BC00F5CD79 /* Localizable.strings in Resources */,
+				84E2263B1BEB40CB00F585FD /* Podfile in Resources */,
+				84E210011BF2032A004BE34E /* KGKPeriodScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +659,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		044AEBED3F9D7A9263C7A486 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E0F0B6C69E0AF5E6D89E95 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE7EAC620300DF5A8E3139D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E225F21BEB2B7A00F585FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E226021BEB2B7A00F585FD /* ViewController.m in Sources */,
+				847E47511BF32FF700FC92ED /* ActionCreatorConstants.m in Sources */,
+				847AD7641BF3762B00152B60 /* ToastView.m in Sources */,
+				84E6F9411BF4839E002FE351 /* KGKStore.m in Sources */,
+				84E6F9451BF4AE02002FE351 /* KGKDevicesScreenViewController.m in Sources */,
+				84E512331BFDE046009C39FA /* SignalsFromDatabaseDelivery.m in Sources */,
 				84E225FF1BEB2B7A00F585FD /* AppDelegate.m in Sources */,
+				845B89B51C049512008F0FBB /* KGKActisHistoryCell.m in Sources */,
+				847AD7611BF3696500152B60 /* KGKLoginEvent.m in Sources */,
+				84EFAD8D1C0356C000A6FE1A /* MarkerInformationView.m in Sources */,
+				847E47541BF3385600FC92ED /* KGKHttpCommunication.m in Sources */,
+				84780FE61BFB2E900025D061 /* KGKSignalStore.m in Sources */,
+				84AA32E51BEC80C70044CD67 /* KGKSettingsScreenViewController.m in Sources */,
+				84CCEA9E1BF5E07100D58515 /* DatabaseConstants.m in Sources */,
+				84E20FFB1BF2012D004BE34E /* KGKTrackScreenViewController.m in Sources */,
+				84E2100F1BF22BE7004BE34E /* Tolo.m in Sources */,
+				847E47591BF3430800FC92ED /* KGKHttpConstants.m in Sources */,
+				84E226381BEB404500F585FD /* KGKInformationScreenViewController.m in Sources */,
+				84CCEA961BF5B5AE00D58515 /* DatabaseManager.m in Sources */,
+				84E6F93E1BF481FA002FE351 /* KGKDevice.m in Sources */,
+				847E474B1BF3178800FC92ED /* ActionBuilder.m in Sources */,
+				84E20FF11BF1E8F0004BE34E /* KGKHistoryScreenViewController.m in Sources */,
+				84E20FEC1BF1E5AC004BE34E /* KGKMapScreenViewController.m in Sources */,
+				847E474E1BF3227700FC92ED /* ActionCreator.m in Sources */,
+				84E210001BF2032A004BE34E /* KGKPeriodScreenViewController.m in Sources */,
+				84E226221BEB2C2500F585FD /* KGKLoginScreenViewController.m in Sources */,
+				847E47461BF3167900FC92ED /* Action.m in Sources */,
+				846D7A9D1BFC90FA00C354A4 /* ToggleSearchModeEvent.m in Sources */,
+				84E2100B1BF2248A004BE34E /* KGKDispatcher.m in Sources */,
+				84677D0C1C1586FE002FBE7B /* KGKDownloadDataInProgressEvent.m in Sources */,
+				84780FF21BFB558D0025D061 /* UtilityConstants.m in Sources */,
 				84E225FC1BEB2B7A00F585FD /* main.m in Sources */,
+				84E512301BFDBC20009C39FA /* SettingsSentEvent.m in Sources */,
+				84E210081BF2217D004BE34E /* KGKSignal.m in Sources */,
+				84E210131BF2315F004BE34E /* KGKStoreChangeEvent.m in Sources */,
+				84780FEF1BFB55120025D061 /* LastActionDateStorage.m in Sources */,
+				84148DC51BF47D6B0075CD73 /* KGKDeviceStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +770,32 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84E226031BEB2B7A00F585FD /* Main.storyboard */ = {
+		846240681C0C5E17002E7132 /* LaunchScreen~ipad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84E226041BEB2B7A00F585FD /* Base */,
+				846240691C0C5E17002E7132 /* Base */,
 			);
-			name = Main.storyboard;
+			name = "LaunchScreen~ipad.xib";
 			sourceTree = "<group>";
 		};
 		84E226081BEB2B7A00F585FD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84E226091BEB2B7A00F585FD /* Base */,
+				84EFEB681C05D24400F5CD79 /* ru */,
+				84EFEB6D1C05E8EF00F5CD79 /* uk */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		84EFEB6B1C05D2BC00F5CD79 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EFEB6A1C05D2BC00F5CD79 /* ru */,
+				84EFEB6C1C05D2D400F5CD79 /* en */,
+				84EFEB6E1C05E90E00F5CD79 /* uk */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -324,7 +862,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KGK OOO (DCE9F7G8V8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: KGK OOO (DCE9F7G8V8)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -347,6 +886,7 @@
 		};
 		84E2261A1BEB2B7A00F585FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC941F56650AA43C167DBA37 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "KGK Monitoring/Info.plist";
@@ -357,6 +897,7 @@
 		};
 		84E2261B1BEB2B7A00F585FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BCC248874B987A618721EE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "KGK Monitoring/Info.plist";
@@ -418,6 +959,7 @@
 				84E2261B1BEB2B7A00F585FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E2261C1BEB2B7A00F585FD /* Build configuration list for PBXNativeTarget "KGK MonitoringTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +968,7 @@
 				84E2261E1BEB2B7A00F585FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

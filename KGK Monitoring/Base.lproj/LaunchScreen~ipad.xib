@@ -2,30 +2,29 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kgk_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="bcu-JJ-ahe">
-                    <rect key="frame" x="65" y="140" width="274" height="94"/>
+                    <rect key="frame" x="176" y="250" width="417" height="143"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="bcu-JJ-ahe" secondAttribute="height" multiplier="137:47" id="lkp-UE-So3"/>
+                        <constraint firstAttribute="height" constant="143" id="7tb-W2-OoP"/>
+                        <constraint firstAttribute="width" constant="417" id="aEy-1e-qVb"/>
                     </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="bcu-JJ-ahe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="65" id="M4s-IY-arh"/>
-                <constraint firstItem="bcu-JJ-ahe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="140" id="O9P-JX-ODy"/>
-                <constraint firstAttribute="trailing" secondItem="bcu-JJ-ahe" secondAttribute="trailing" constant="75" id="kin-aN-EtO"/>
+                <constraint firstItem="bcu-JJ-ahe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="176" id="M4s-IY-arh"/>
+                <constraint firstItem="bcu-JJ-ahe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="250" id="O9P-JX-ODy"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>

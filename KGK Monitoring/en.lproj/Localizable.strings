@@ -1,0 +1,77 @@
+// Login Screen
+"Login" = "Login";
+"Settings" = "Settings";
+"Wrong login or password" = "Wrong login or password";
+"Network error" = "Network error";
+"No registered devices" = "No registered devices";
+"Remember Me" = "Remember Me";
+"Login Placeholder" = "Login";
+"Password Placeholder" = "Password";
+
+// Devices Screen
+"Devices" = "Devices";
+"Attention" = "Attention";
+"Current version of application supports only Actis beacons" = "Current version of application supports only Actis beacons";
+
+// Information Screen
+"Information" = "Information";
+"Search: On" = "Search: On";
+"Search: Off" = "Search: Off";
+"Command has been sent" = "Command has been sent";
+"Error sending command" = "Error sending command";
+"Do you want to deactivate search mode?" = "Do you want to deactivate search mode?";
+"Do you want to activate search mode?" = "Do you want to activate search mode?";
+"Search mode" = "Search mode";
+"Ok" = "Ok";
+"Cancel" = "Cancel";
+"Map" = "Map";
+"History" = "History";
+"Settings" = "Settings";
+"Query" = "Query";
+"Last Action" = "Last Action:";
+"Last Positioning" = "Last Positioning";
+"Message in detecting mode" = "Message in detecting mode";
+"Satellites" = "Satellites";
+"Speed" = "Speed";
+"Direction" = "Direction";
+"Temperature" = "Temperature";
+"Voltage" = "Voltage";
+"Charge" = "Charge";
+"Balance" = "Balance";
+
+// Marker Information Window
+"Positioning" = "Positioning";
+"%ldst" = "%ldst";
+"%ldkm/h" = "%ldkm/h";
+"%ld°C" = "%ld°C";
+"%.01fV" = "%.01fV";
+"%ld%%" = "%ld%%";
+"%.01frub" = "%.01frub";
+
+// History Screen
+"History" = "History";
+"Period" = "Period";
+"Track" = "Track";
+"%ldst | %ldkm/h | %ld°C | %.1fV | %.1frub" = "%ldst | %ldkm/h | %ld°C | %.1fV | %.1frub";
+
+// Period Screen
+"fromLabel" = "Displaying signals from:";
+"toLabel" = "To:";
+
+// Settings Screen
+"Connection Period" = "Connection Period (min)";
+"Number of SMS omissions" = "Number of SMS omissions";
+"GPS positioning period" = "GPS positioning period";
+"Balance control limit" = "Balance control limit (rub)";
+"Balance request command" = "Balance request command";
+"Send" = "Send";
+
+// Direction letters
+"N" = "N";
+"NE" = "NE";
+"E" = "E";
+"SE" = "SE";
+"S" = "S";
+"SW" = "SW";
+"W" = "W";
+"NW" = "NW";

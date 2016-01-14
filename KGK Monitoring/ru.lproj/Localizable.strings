@@ -1,0 +1,75 @@
+// Login Screen
+"Login" = "Вход";
+"Settings" = "Настройки";
+"Wrong login or password" = "Неправильное имя пользователя или пароль";
+"Network error" = "Ошибка сети";
+"No registered devices" = "У вас нет зарегистрированных устройств";
+"Remember Me" = "Запомнить";
+"Login Placeholder" = "Пользователь";
+"Password Placeholder" = "Пароль";
+
+// Devices Screen
+"Devices" = "Устройства";
+"Attention" = "Внимание";
+"Current version of application supports only Actis beacons" = "Данная версия приложения поддерживает только маячки Actis";
+
+// Information Screen
+"Information" = "Информация";
+"Search: On" = "Поиск: Вкл";
+"Search: Off" = "Поиск: Выкл";
+"Command has been sent" = "Команда отправлена";
+"Error sending command" = "Ошибка отправки комманды";
+"Do you want to deactivate search mode?" = "Вы уверены, что хотите выключить режим поиска?";
+"Do you want to activate search mode?" = "Вы уверены, что хотите включить режим поиска?";
+"Search mode" = "Режим поиска";
+"Ok" = "Ok";
+"Cancel" = "Отмена";
+"Map" = "Карта";
+"History" = "История";
+"Query" = "Опросить";
+"Last Action" = "Последняя команда:";
+"Last Positioning" = "Позиционирование:";
+"Message in detecting mode" = "Периодическое сообщение через заданный интервал";
+"Satellites" = "Спутники";
+"Speed" = "Скорость";
+"Direction" = "Направление";
+"Temperature" = "Температура";
+"Voltage" = "Напряжение";
+"Charge" = "Заряд";
+"Balance" = "Баланс";
+
+// Marker Information Window
+"Positioning" = "Позиционирование:";
+"%ldst" = "%ldст";
+"%ldkm/h" = "%ldкм/ч";
+"%ld°C" = "%ld°C";
+"%.01fV" = "%.01fВ";
+"%ld%%" = "%ld%%";
+"%.01frub" = "%.01fруб";
+
+// History Screen
+"Period" = "Период";
+"Track" = "Трек";
+"%ldst | %ldkm/h | %ld°C | %.1fV | %.1frub" = "%ldст | %ldкм/ч | %ld°C | %.1fВ | %.1fруб";
+
+// Period Screen
+"fromLabel" = "Отображать сигналы с:";
+"toLabel" = "По:";
+
+// Settings Screen
+"Connection Period" = "Период выхода на связь (мин)";
+"Number of SMS omissions" = "Кол-во пропусков СМС";
+"GPS positioning period" = "Время определения GPS (мин)";
+"Balance control limit" = "Порог контроля баланса (руб)";
+"Balance request command" = "Команда запроса баланса";
+"Send" = "Ок";
+
+// Direction letters
+"N" = "С";
+"NE" = "СВ";
+"E" = "В";
+"SE" = "ЮВ";
+"S" = "Ю";
+"SW" = "ЮЗ";
+"W" = "З";
+"NW" = "СЗ";

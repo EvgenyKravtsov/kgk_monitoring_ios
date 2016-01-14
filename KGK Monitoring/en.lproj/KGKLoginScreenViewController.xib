@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "FWW-I2-KZz"; */
+"FWW-I2-KZz.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "bbc-vq-5Jr"; */
+"bbc-vq-5Jr.normalTitle" = "Log In";
+
+/* Class = "UILabel"; text = "Remember me"; ObjectID = "e1L-bE-zeH"; */
+"e1L-bE-zeH.text" = "Remember me";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "l0e-sK-jMn"; */
+"l0e-sK-jMn.placeholder" = "Login";
